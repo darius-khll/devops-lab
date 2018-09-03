@@ -1,3 +1,5 @@
+// docker run -d -u root -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 -p 2375:2375 --name jenkins_blueocean jenkinsci/blueocean:latest
+
 pipeline {
     agent any
     stages {
